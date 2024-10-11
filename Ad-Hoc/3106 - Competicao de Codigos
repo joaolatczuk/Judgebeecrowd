@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    int n,sum=0;
+    scanf("%d",&n);
+    int a[n];
+    for(int x=0;x<n;x++) {
+        scanf("%d",&a[x]);
+        int c=a[x]/3;
+        int d=c*3;
+        sum+=d;
+    }
+    printf("%d\n",sum);
+}
